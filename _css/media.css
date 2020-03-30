@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+section#corpo-full{
+    margin-top: -150px;
+}
+
+header#cabecalho-artigo{
+    background-color: burlywood;
+    color: aquamarine;
+}
+
+header#cabecalho-artigo h1{
+    color: blueviolet;
+}
+
+header#cabecalho-artigo h2{
+    color: coral;
+    background-color: burlywood;
+}
+
+header#cabecalho-artigo h3{
+    color: coral;
+}
+
+article#noticia-principal{
+    margin-top: -100px;
+}
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+}
+
+footer#rodape{
+    margin-top: 90px;
+    text-align: center;
+}

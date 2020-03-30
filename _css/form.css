@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+section#corpo-full{
+    margin-top: -250px;
+    margin-bottom: 10px;
+}
+
+header#cabecalho-artigo{
+    background-color: burlywood;
+    color: burlywood;
+}
+
+header#cabecalho-artigo h2{
+    color: coral;
+    background-color: burlywood;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: lemonchiffon;
+}
+
+input:hover, textarea:hover{
+    background-color: lightblue;
+}
+
+legend{
+    color: mediumseagreen;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: mediumseagreen;
+    margin: 20px;
+}
+
+fieldset{
+    border-color: mediumseagreen;
+    margin: 20px;
+}
+
+fieldset#usuario{
+    background: url("");
+}
+
+fieldset#esqueceu{
+    background: url("");
+}
+
+fieldset#cadastrar{
+    background: url("");
+}
+
+footer#rodape{
+    margin-top: 50px;
+    text-align: center;
+}

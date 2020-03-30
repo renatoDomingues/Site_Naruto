@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title> </title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/form.css"/>
+
+<script language="javascript" src="_javascript/funcoes.js"> </script>
+
+</head>
+
+<body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+            <hgroup>
+                <h1> SEJA Bem Vindo </h1>
+                <h2> O que podemos fazer por você? </h2>
+            </hgroup>
+
+            <figure>
+
+                <img id="icone" src="_imagens/naruto-assistencia.jpg" width="100%" height="100%">
+
+            </figure>
+
+            <nav id="menu">
+
+                <h1> Menu Principal </h1>
+
+                <ul type="square">
+
+                    <li onmouseover="mudaFoto('_imagens/naruto-assistencia.jpg')" onmouseout="mudaFoto('_imagens/naruto-assistencia.jpg')"> <a href="index.html"> Home </a> </li>
+                    <li onmouseover="mudaFoto('_imagens/naruto-assistencia.jpg')" onmouseout="mudaFoto('_imagens/naruto-assistencia.jpg')"> <a href="fotos.html"> Fotos </a> </li>
+                    <li onmouseover="mudaFoto('_imagens/naruto-assistencia.jpg')" onmouseout="mudaFoto('_imagens/naruto-assistencia.jpg')"> <a href="multimidia.html"> Vídeos </a> </li>
+                    <li onmouseover="mudaFoto('_imagens/naruto-assistencia.jpg')" onmouseout="mudaFoto('_imagens/naruto-assistencia.jpg')"> <a href="fale_conosco.html"> Fale com a galera do Naruto </a> </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section id="corpo-full">
+
+            <article id="noticia-principal">
+
+                <header id="cabecalho-artigo">
+
+                    <hgroup>
+
+                        <h3> Fale com a turma da vila Oculta da Folha </h3>
+                        <h1> Formulário de contato </h1>
+                        <h2> Naruto Classico e Shippuden </h2>
+                        <h3> Atualizado em 15/03/2020 </h3>
+
+                    </hgroup>
+
+                </header>
+
+        <fieldset id="usuario">
+
+            <legend> Identificação do usuário </legend>
+
+            <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo" /> </p>
+            <p> <label for="cSenha"> Senha: </label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos" /> </p>
+            <p> <label for="cMail"> E-mail </label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="E-mail"> </p>
+
+        </fieldset>
+
+        <fieldset id="esqueceu">
+
+            <legend> Esqueceu a senha ou nome de usuario </legend>
+
+            <p> <label for="cTrocarSenha"> Solicitar nova senha </label> <input type="password" name="tTrocarSenha" id="cTrocarSenha" size="8" maxlength="8" placeholder="Nova senha"> </p>
+            <p> <label for="cTrocarNome"> Solicitar novo do usuário </label> <input type="text" name="tTrocarNome" id="cTrocarNome" size="20" maxlength="30" placeholder="Solicitar novo nome"> </p>
+
+        </fieldset>
+
+        <fieldset id="cadastrar">
+
+            <p> <label for="cCadastrar"> Torne se um ninja agora mesmo </label> <input type="submit" name="tCadastrar" id="cCadastrar" placeholder="CADASTRAR"> </p>
+
+        </fieldset>
+
+
+
+        <img class="esquerda" src="_imagens/video-hinata.png" width="35%" height="25%"/>
+        <img class="centro" src="_imagens/shippuden-naruto.png" width="35%" height="25%" />
+        <img class="direita" src="_imagens/sasuke.jpeg" width="25%" height="35%" />
+
+
+
+        <footer id="rodape">
+
+            <p> Copytight &copy; 2020 - Mundo do Naruto em sua casa <a href="https://www.facebook.com/groups/NarutoBorutoBR/" target="_blank"> Facebook </a> Naruto e Boruto Brasil </p>
+            
+        </footer>
+    
+    </div>
+
+</body>
+
+</html>
